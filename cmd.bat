@@ -1,0 +1,1 @@
+python3 retrain.py --bottleneck_dir=tf_files/bottlenecks  --how_many_training_steps=500  --model_dir=inception  --summaries_dir=train --output_graph=retrained_graph.pb  --output_labels=retrained_labels.txt --image_dir=img
